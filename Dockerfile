@@ -1,4 +1,4 @@
-FROM ubuntu:15.04
+FROM python:alpine
 COPY . /app
 RUN make /app
 EXPOSE 80:5001
