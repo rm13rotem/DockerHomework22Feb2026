@@ -3,4 +3,4 @@ WORKDIR /app
 RUN pip install --no-cache-dir flask boto3
 COPY app.py /app
 EXPOSE 5001
-CMD python3 app.py
+CMD python app.py
